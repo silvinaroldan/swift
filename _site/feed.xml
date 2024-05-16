@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-03T22:16:19-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Swift</title><author><name>Silvina Roldan</name><email>ing.silvinaroldan@gmail.com</email></author><entry><title type="html">Pattern Matching</title><link href="http://localhost:4000/posts/pattern-matching/" rel="alternate" type="text/html" title="Pattern Matching" /><published>2024-05-03T00:00:00-03:00</published><updated>2024-05-03T00:00:00-03:00</updated><id>http://localhost:4000/posts/pattern-matching</id><content type="html" xml:base="http://localhost:4000/posts/pattern-matching/"><![CDATA[<h3 id="partial-matches">Partial matches</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-16T00:31:52-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Swift</title><author><name>Silvina Roldan</name><email>ing.silvinaroldan@gmail.com</email></author><entry><title type="html">Shortcuts</title><link href="http://localhost:4000/posts/shortcuts/" rel="alternate" type="text/html" title="Shortcuts" /><published>2024-05-16T00:00:00-03:00</published><updated>2024-05-16T00:00:00-03:00</updated><id>http://localhost:4000/posts/shortcuts</id><content type="html" xml:base="http://localhost:4000/posts/shortcuts/"><![CDATA[<h3 id="shortcuts">ShortCuts</h3>
+
+<p>Cmd+U: Run all tests.<br />
+Ctrl+Alt+Cmd+U: Run whichever test my text caret is currently in.<br />
+Ctrl+Alt+Cmd+G: Run whichever test I last ran. That might be one test method, a whole test class, or all tests classes depending on your last action.</p>]]></content><author><name>Silvina Roldan</name><email>ing.silvinaroldan@gmail.com</email></author><category term="Shortcuts" /><summary type="html"><![CDATA[ShortCuts]]></summary></entry><entry><title type="html">Pattern Matching</title><link href="http://localhost:4000/posts/pattern-matching/" rel="alternate" type="text/html" title="Pattern Matching" /><published>2024-05-03T00:00:00-03:00</published><updated>2024-05-03T00:00:00-03:00</updated><id>http://localhost:4000/posts/pattern-matching</id><content type="html" xml:base="http://localhost:4000/posts/pattern-matching/"><![CDATA[<h3 id="partial-matches">Partial matches</h3>
 
 <p>When any value is fine.</p>
 
@@ -144,4 +148,15 @@ case .capuccino:
 case .latte:
     print("It's a latte")
 }
-</code></pre></div></div>]]></content><author><name>Silvina Roldan</name><email>ing.silvinaroldan@gmail.com</email></author><category term="Partial matches" /><category term="Matching tuples" /><category term="Loops" /><category term=".none" /><category term=".some" /><category term="Matching ranges" /><category term="Matching enums and associated values" /><summary type="html"><![CDATA[Partial matches]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name>Silvina Roldan</name><email>ing.silvinaroldan@gmail.com</email></author><category term="Partial matches" /><category term="Matching tuples" /><category term="Loops" /><category term=".none" /><category term=".some" /><category term="Matching ranges" /><category term="Matching enums and associated values" /><summary type="html"><![CDATA[Partial matches]]></summary></entry><entry><title type="html">Test</title><link href="http://localhost:4000/posts/test/" rel="alternate" type="text/html" title="Test" /><published>2024-05-03T00:00:00-03:00</published><updated>2024-05-03T00:00:00-03:00</updated><id>http://localhost:4000/posts/test</id><content type="html" xml:base="http://localhost:4000/posts/test/"><![CDATA[<h3 id="test">Test</h3>
+
+<h4 id="advices">Advices</h4>
+<p>Tests should be sensitive to things that are important, but ignore things that are unimportant.<br />
+Avoid Hardcoded values to cover hidden assumptions.<br />
+The most important thing to do is make sure the code you’re testing relies solely on the input you’re providing.</p>
+
+<h3 id="shortcuts">ShortCuts</h3>
+
+<p>Cmd+U: Run all tests.<br />
+Ctrl+Alt+Cmd+U: Run whichever test my text caret is currently in.<br />
+Ctrl+Alt+Cmd+G: Run whichever test I last ran.</p>]]></content><author><name>Silvina Roldan</name><email>ing.silvinaroldan@gmail.com</email></author><category term="Test" /><summary type="html"><![CDATA[Test]]></summary></entry></feed>
